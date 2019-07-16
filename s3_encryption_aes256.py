@@ -4,6 +4,7 @@
 # remove safe_buckets after testing and change the for loop as for bucket in buckets.
 # run as python3 s3_encryption_aes256.py
 # Future modifications: Give the count of how many buckets are encrypted and how many are already encrypted.
+# Ref: https://gist.github.com/dangarfield/766d4c7b02e544e8c62f5c87e6f894a9
 
 import sys
 import boto3
