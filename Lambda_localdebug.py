@@ -1,4 +1,5 @@
-# An Amazon CloudWatch rule that triggers Lambda and lambda sends alarm notifications to Slack.
+# An Amazon CloudWatch rule that triggers Lambda and lambda sends alarm notifications to Slack. 
+# This assumes your local laptop and helps you debug lambda from your local mac / ubuntu. Tweaked lambda to work on local box.
 import boto3
 import json
 import logging
